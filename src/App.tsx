@@ -22,7 +22,7 @@ function App() {
         <nav className="fixed top-0 w-full bg-black/20 backdrop-blur-md z-50 border-b border-white/10">
           <div className="max-w-6xl mx-auto px-6 py-4">
             <div className="flex justify-between items-center">
-              <div className="text-white font-bold text-xl">Hero Tanaka</div>
+              <div className="text-white font-bold text-xl">Hiro Tanaka</div>
               <div className="hidden md:flex space-x-8">
                 <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>
                 <a href="#skills" className="text-white/80 hover:text-white transition-colors">Skills</a>
@@ -52,7 +52,7 @@ function App() {
           </div>
         </nav>
 
-        {/* Hero Section */}
+        {/* Hiro Section */}
         <section className="pt-32 pb-20 px-6">
           <div className="max-w-6xl mx-auto text-center">
             <div className="mb-8">
@@ -62,7 +62,7 @@ function App() {
                   <div className="w-full h-full bg-slate-900 rounded-full p-1">
                     <img 
                       src="/2023-03-01.png" 
-                      alt="Hero Tanaka - Senior Software Engineer"
+                      alt="Hiro Tanaka - Senior Software Engineer"
                       className="w-full h-full object-cover rounded-full border-2 border-white/20 hover:scale-105 transition-transform duration-300"
                     />
                   </div>
@@ -77,7 +77,7 @@ function App() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Hero Tanaka
+              Hiro Tanaka
             </h1>
             
             <p className="text-xl md:text-2xl text-purple-200 mb-4">
@@ -112,7 +112,7 @@ function App() {
               </a>
             </div>
 
-            {/* Social Links in Hero */}
+            {/* Social Links in Hiro */}
             <div className="flex justify-center space-x-6">
               <a 
                 href="https://github.com/bluesky0427" 
@@ -800,7 +800,7 @@ function App() {
         {/* Footer */}
         <footer className="py-8 px-6 border-t border-white/10">
           <div className="max-w-6xl mx-auto text-center">
-            <p className="text-white/60">© 2025 Hero Tanaka. Crafting exceptional software solutions with passion and precision.</p>
+            <p className="text-white/60">© 2025 Hiro Tanaka. Crafting exceptional software solutions with passion and precision.</p>
           </div>
         </footer>
       </div>
