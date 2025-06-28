@@ -1,4 +1,4 @@
-# Hiro Tanaka Portfolio Website
+# Hero Tanaka Portfolio Website
 
 A modern, interactive portfolio website built with React, TypeScript, and Tailwind CSS.
 
