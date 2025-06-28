@@ -106,7 +106,7 @@ app.post('/api/contact', async (req, res) => {
     const autoReplyOptions = {
       from: process.env.EMAIL_USER || 'danieltanaka0420@gmail.com',
       to: email,
-      subject: 'Thank you for contacting Hero Tanaka',
+      subject: 'Thank you for contacting Hiro Tanaka',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #7c3aed; border-bottom: 2px solid #7c3aed; padding-bottom: 10px;">
@@ -136,7 +136,7 @@ app.post('/api/contact', async (req, res) => {
           <p>Looking forward to our conversation!</p>
           
           <p>Best regards,<br>
-          <strong>Hero Tanaka</strong><br>
+          <strong>Hiro Tanaka</strong><br>
           Senior Software Engineer</p>
           
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e2e8f0; color: #64748b; font-size: 14px;">
